@@ -1,0 +1,74 @@
+{
+  "InfinityGauntletUnpowered": {
+    "NAME": "Infinity Gauntlet (Unpowered)",
+    "FLAVOR": "Forged in the core of a dying neutron star. Looks like its missing some gems.",
+    "DESCRIPTIONS": [
+      "At the start of every combat, gain #b",
+      " #yStrength."
+    ]
+  },
+
+  "SoulStone": {
+    "NAME": "Soul Stone",
+    "FLAVOR": "A sacred stone that can manipulate a person's soul. It only answers to those who make the ultimate sacrifice.",
+    "DESCRIPTION": [
+      "Replaces starting #bClass #bRelic.",
+      "At the start of every combat, apply #b",
+      " #yVulnerable to ALL enemies."
+    ]
+  },
+
+  "TimeStone": {
+    "NAME": "Time Stone",
+    "FLAVOR": "A dull green glow shines from within, empowering the wielder to bend time.",
+    "DESCRIPTIONS": [
+      "Start each combat with an additional ",
+      "[E] ",
+      ""
+    ]
+  },
+
+  "SpaceStone": {
+    "NAME": "Space Stone",
+    "FLAVOR": "An aura surrounding the gem seems to warp the very space around it.",
+    "DESCRIPTIONS": [
+      "You may ignore paths when choosing the next room to travel to."
+    ]
+  },
+
+  "MindStone": {
+    "NAME": "Mind Stone",
+    "FLAVOR": "Upon touching the gem, your mind is filled with new, never-before-seen capabilities.",
+    "DESCRIPTIONS": [
+      "When you enter a Rest Site, heal #b",
+      " HP and gain #b1 #yArtifact at the start of combat."
+    ]
+  },
+
+  "RealityStone": {
+    "NAME": "Reality Stone",
+    "FLAVOR": "Your hands turn invisible as you reach to touch the gem.",
+    "DESCRIPTIONS": [
+      "Every #b4 turns, gain #b1 #yIntangible."
+    ]
+  },
+
+  "PowerStone": {
+    "NAME": "Power Stone",
+    "FLAVOR": "Everything feels immensely lighter after coming into contact with the gem.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b",
+      " #yStrength. At the end of your first turn, lose #b",
+      " #yStrength."
+    ]
+  },
+
+  "InfinityGauntlet": {
+    "NAME": "Infinity Gauntlet",
+    "FLAVOR": "Balance everything, as they should be.",
+    "DESCRIPTIONS": [
+      "At the start of every combat, half the HP of all Elite and Boss enemies,",
+      "as well as instant kill half of all common enemies."
+    ]
+  }
+}
