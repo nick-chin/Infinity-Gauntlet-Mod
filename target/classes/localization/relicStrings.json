@@ -32,7 +32,7 @@
     "NAME": "Space Stone",
     "FLAVOR": "An aura surrounding the gem seems to warp the very space around it.",
     "DESCRIPTIONS": [
-      "You may ignore paths when choosing the next room to travel to."
+      "Prevent the first #b2 times you would lose HP in combat."
     ]
   },
 
@@ -67,7 +67,7 @@
     "NAME": "Infinity Gauntlet",
     "FLAVOR": "Balance everything, as they should be.",
     "DESCRIPTIONS": [
-      "At the start of every combat, half the HP of all Elite and Boss enemies,",
+      "At the start of every combat, half the HP of all Elite and Boss enemies, ",
       "as well as instant kill half of all common enemies."
     ]
   }

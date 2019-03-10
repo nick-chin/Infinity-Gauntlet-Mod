@@ -24,13 +24,13 @@ public class InfinityGauntlet extends CustomRelic {
     public void atBattleStart() {
         flash();
         int num_of_monsters = AbstractDungeon.getCurrRoom().monsters.monsters.size();
+        int half = num_of_monsters / 2;
         for (AbstractMonster m : AbstractDungeon.getCurrRoom().monsters.monsters) {
             if (m.type == AbstractMonster.EnemyType.ELITE || m.type == AbstractMonster.EnemyType.BOSS) {
                 m.currentHealth /= 2;
                 m.healthBarUpdatedEvent();
-            } else if (AbstractDungeon.getCurrRoom().monsters.monsters.indexOf(m) > num_of_monsters / 2) {
-                m.currentHealth = 0;
-                m.healthBarUpdatedEvent();
+            } else if (AbstractDungeon.getCurrRoom().monsters.monsters.indexOf(m) + 1 > half) {
+                m.die();
             }
         }
     }
