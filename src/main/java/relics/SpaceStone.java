@@ -10,18 +10,20 @@ import java.util.List;
 
 public class SpaceStone extends CustomRelic {
     public static final String ID = "SpaceStone";
-    public static final String IMG = "images/relics/SpaceStone.png";
-    public static List<String> MODS;
+    public static final String IMG = "localization/images/relics/SpaceStone.png";
+    //public static List<String> MODS;
 
     public SpaceStone() {
         super(ID, new Texture(Gdx.files.internal(IMG)), RelicTier.RARE, LandingSound.MAGICAL);
-        MODS.add("Flight");
+        //MODS.add("Flight");
     }
+/*
 
     @Override
     public void onEquip() {
         ModHelper.setMods(MODS);
     }
+*/
 
     @Override
     public String getUpdatedDescription() {

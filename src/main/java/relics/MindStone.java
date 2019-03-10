@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.rooms.RestRoom;
 
 public class MindStone extends CustomRelic {
     public static final String ID = "MindStone";
-    public static final String IMG = "images/relics/MindStone.png";
+    public static final String IMG = "localization/images/relics/MindStone.png";
     public static final int HEAL_AMT = 10;
     public static final int ARTIFACT_AMT = 1;
     private boolean firstTurn = true;
@@ -24,7 +24,7 @@ public class MindStone extends CustomRelic {
     @Override
     public String getUpdatedDescription()
     {
-        return this.DESCRIPTIONS[0] + HEAL_AMT + this.DESCRIPTIONS[2];
+        return this.DESCRIPTIONS[0] + HEAL_AMT + this.DESCRIPTIONS[1];
     }
 
     @Override

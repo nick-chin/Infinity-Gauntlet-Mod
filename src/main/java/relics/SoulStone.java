@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class SoulStone extends CustomRelic {
     public static final String ID = "SoulStone";
-    public static final String IMG = "images/relics/SoulStone.png";
+    public static final String IMG = "localization/images/relics/SoulStone.png";
     public static final int VUL_AMT = 2;
 
     public SoulStone(){

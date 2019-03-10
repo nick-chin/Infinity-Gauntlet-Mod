@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class PowerStone extends CustomRelic {
     public static final String ID = "PowerStone";
-    public static final String IMG = "images/relics/PowerStone.png";
+    public static final String IMG = "localization/images/relics/PowerStone.png";
     public static final int STR_AMT = 4;
 
     public PowerStone() {

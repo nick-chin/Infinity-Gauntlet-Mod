@@ -1,0 +1,10 @@
+{
+  "modid": "InifinityGauntlet",
+  "name": "Infinity Gauntlet",
+  "author_list": ["hermitP"],
+  "description": "Adds Marvel's Avengers infinity gauntlet and infinity stone relics.",
+  "version": "0.1",
+  "sts_version": "01-23-2019",
+  "mts_version": "3.6.3",
+  "dependencies": ["basemod"]
+}

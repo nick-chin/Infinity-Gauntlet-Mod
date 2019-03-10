@@ -10,15 +10,15 @@ import relics.*;
 import java.nio.charset.StandardCharsets;
 
 @SpireInitializer
-public class InfinityGauntletMod implements EditRelicsSubscriber, EditStringsSubscriber {
+public class ModInitializer implements EditRelicsSubscriber, EditStringsSubscriber {
 
 
-    public InfinityGauntletMod() {
+    public ModInitializer() {
         BaseMod.subscribe(this);
     }
 
     public static void initialize(){
-        InfinityGauntletMod infinityGauntletMod = new InfinityGauntletMod();
+        ModInitializer infinityGauntletMod = new ModInitializer();
     }
 
     @Override

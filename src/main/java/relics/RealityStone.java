@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class RealityStone extends CustomRelic {
     public static final String ID = "RealityStone";
-    public static final String IMG = "images/relics/RealityStone.png";
+    public static final String IMG = "localization/images/relics/RealityStone.png";
     public static final int INTANGIBLE_AMT = 1;
     public static final int NUM_TURNS = 4;
 

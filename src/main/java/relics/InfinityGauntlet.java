@@ -9,7 +9,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 public class InfinityGauntlet extends CustomRelic {
     public static final String ID = "InfinityGauntlet";
-    public static final String IMG = "images/relics/InfinityGauntlet.png";
+    public static final String IMG = "localization/images/relics/InfinityGauntlet.png";
 
     public InfinityGauntlet() {
         super(ID, new Texture(Gdx.files.internal(IMG)), RelicTier.RARE, LandingSound.HEAVY);
@@ -17,7 +17,7 @@ public class InfinityGauntlet extends CustomRelic {
 
     @Override
     public String getUpdatedDescription() {
-        return this.DESCRIPTIONS[0];
+        return this.DESCRIPTIONS[0] + DESCRIPTIONS[1];
     }
 
     @Override
